@@ -1,0 +1,371 @@
+
+Skip to content
+geeksforgeeks
+
+    Courses
+    Tutorials
+    DSA
+    Data Science
+    Web Tech
+
+    Sign In
+
+    Aptitude
+    Engineering Mathematics
+    Discrete Mathematics
+    Operating System
+    DBMS
+    Computer Networks
+    Digital Logic and Design
+    C Programming
+    Data Structures
+    Algorithms
+    Theory of Computation
+    Compiler Design
+    Computer Org and Architecture
+
+Wireless Sensor Network (WSN)
+Last Updated : 18 Jun, 2024
+
+Wireless Sensor Network (WSN), is an infrastructure-less wireless network that is deployed in a large number of wireless sensors in an ad-hoc manner that is used to monitor the system, physical, or environmental conditions. 
+
+Sensor nodes are used in WSN with the onboard processor that manages and monitors the environment in a particular area. They are connected to the Base Station which acts as a processing unit in the WSN System. The base Station in a WSN System is connected through the Internet to share data. WSN can be used for processing, analysis, storage, and mining of the data.
+Wireless sensor network
+Wireless Sensor Network Architecture
+
+A Wireless Sensor Network (WSN) architecture is structured into three main layers:
+
+    Physical Layer: This layer connects sensor nodes to the base station using technologies like radio waves, infrared, or Bluetooth. It ensures the physical communication between nodes and the base station.
+    Data Link Layer: Responsible for establishing a reliable connection between sensor nodes and the base station. It uses protocols such as IEEE 802.15.4 to manage data transmission and ensure efficient communication within the network.
+    Application Layer: Enables sensor nodes to communicate specific data to the base station. It uses protocols like ZigBee to define how data is formatted, transmitted, and received, supporting various applications such as environmental monitoring or industrial control.
+
+These layers work together to facilitate the seamless operation and data flow within a Wireless Sensor Network, enabling efficient monitoring and data collection across diverse applications.
+WSN Network Topologies
+
+Wireless Sensor Networks (WSNs) can be organized into different network topologies based on their application and network type. Here are the most common types:
+
+    Bus Topology: In a Bus Topology, multiple nodes are connected to a single line or bus. Data travels along this bus from one node to the next. It’s a simple layout often used in smaller networks.
+    StarTopology: Star Topology have a central node, called the master node, which connects directly to multiple other nodes. Data flows from the master node to the connected nodes. This topology is efficient for centralized control.
+    Tree Topology: Tree Topology arrange nodes in a hierarchical structure resembling a tree. Data is transmitted from one node to another along the branches of the tree structure. It’s useful for expanding coverage in hierarchical deployments.
+    Mesh Topology: Mesh Topology feature nodes interconnected with one another, forming a mesh-like structure. Data can travel through multiple paths from one node to another until it reaches its destination. This topology offers robust coverage and redundancy.
+
+Each topology has its advantages and is chosen based on factors such as coverage area, scalability, and reliability requirements for the specific WSN application.
+Types of Wireless Sensor Networks (WSN)
+Terrestrial Wireless Sensor Networks
+
+    Used for efficient communication between base stations.
+    Consist of thousands of nodes placed in an ad hoc (random) or structured (planned) manner.
+    Nodes may use solar cells for energy efficiency.
+    Focus on low energy use and optimal routing for efficiency.
+
+Underground Wireless Sensor Networks
+
+    Nodes are buried underground to monitor underground conditions.
+    Require additional sink nodes above ground for data transmission.
+    Face challenges like high installation and maintenance costs.
+    Limited battery life and difficulty in recharging due to underground setup.
+
+Underwater Wireless Sensor Networks
+
+    Deployed in water environments using sensor nodes and autonomous underwater vehicles.
+    Face challenges like slow data transmission, bandwidth limitations, and signal attenuation.
+    Nodes have restricted and non-rechargeable power sources.
+
+Multimedia Wireless Sensor Networks
+
+    Used to monitor multimedia events such as video, audio, and images.
+    Nodes equipped with microphones and cameras for data capture.
+    Challenges include high power consumption, large bandwidth requirements, and complex data processing.
+    Designed for efficient wireless data compression and transmission.
+
+Mobile Wireless Sensor Networks (MWSNs)
+
+    Composed of mobile sensor nodes capable of independent movement.
+    Offer advantages like increased coverage area, energy efficiency, and channel capacity compared to static networks.
+    Nodes can sense, compute, and communicate while moving in the environment.
+
+Each type of Wireless Sensor Network is tailored to specific environmental conditions and applications, utilizing different technologies and strategies to achieve efficient data collection and communication.
+Applications of WSN
+
+    Internet of Things (IoT)
+    Surveillance and Monitoring for security, threat detection
+    Environmental temperature, humidity, and air pressure
+    Noise Level of the surrounding
+    Medical applications like patient monitoring
+    Agriculture
+    Landslide Detection
+
+Challenges of WSN
+
+    Quality of Service
+    Security Issue
+    Energy Efficiency
+    Network Throughput
+    Performance
+    Ability to cope with node failure
+    Cross layer optimisation
+    Scalability to large scale of deployment
+
+A modern Wireless Sensor Network (WSN) faces several challenges, including:
+
+    Limited power and energy: WSNs are typically composed of battery-powered sensors that have limited energy resources. This makes it challenging to ensure that the network can function for long periods of time without the need for frequent battery replacements.
+    Limited processing and storage capabilities: Sensor nodes in a WSN are typically small and have limited processing and storage capabilities. This makes it difficult to perform complex tasks or store large amounts of data.
+    Heterogeneity: WSNs often consist of a variety of different sensor types and nodes with different capabilities. This makes it challenging to ensure that the network can function effectively and efficiently.
+    Security: WSNs are vulnerable to various types of attacks, such as eavesdropping, jamming, and spoofing. Ensuring the security of the network and the data it collects is a major challenge.
+    Scalability: WSNs often need to be able to support a large number of sensor nodes and handle large amounts of data. Ensuring that the network can scale to meet these demands is a significant challenge.
+    Interference: WSNs are often deployed in environments where there is a lot of interference from other wireless devices. This can make it difficult to ensure reliable communication between sensor nodes.
+    Reliability: WSNs are often used in critical applications, such as monitoring the environment or controlling industrial processes. Ensuring that the network is reliable and able to function correctly in all conditions is a major challenge. 
+
+Components of WSN
+
+    Sensors: Sensors in WSN are used to capture the environmental variables and which is used for data acquisition. Sensor signals are converted into electrical signals.
+    Radio Nodes: It is used to receive the data produced by the Sensors and sends it to the WLAN access point. It consists of a microcontroller, transceiver, external memory, and power source.
+    WLAN Access Point: It receives the data which is sent by the Radio nodes wirelessly, generally through the internet.
+    Evaluation Software: The data received by the WLAN Access Point is processed by a software called as Evaluation Software for presenting the report to the users for further processing of the data which can be used for processing, analysis, storage, and mining of the data.
+
+Advantages
+
+    Low cost: WSNs consist of small, low-cost sensors that are easy to deploy, making them a cost-effective solution for many applications.
+    Wireless communication: WSNs eliminate the need for wired connections, which can be costly and difficult to install. Wireless communication also enables flexible deployment and reconfiguration of the network.
+    Energy efficiency: WSNs use low-power devices and protocols to conserve energy, enabling long-term operation without the need for frequent battery replacements.
+    Scalability: WSNs can be scaled up or down easily by adding or removing sensors, making them suitable for a range of applications and environments.
+    Real-time monitoring: WSNs enable real-time monitoring of physical phenomena in the environment, providing timely information for decision making and control.
+
+Disadvantages
+
+    Limited range: The range of wireless communication in WSNs is limited, which can be a challenge for large-scale deployments or in environments with obstacles that obstruct radio signals.
+    Limited processing power: WSNs use low-power devices, which may have limited processing power and memory, making it difficult to perform complex computations or support advanced applications.
+    Data security: WSNs are vulnerable to security threats, such as eavesdropping, tampering, and denial of service attacks, which can compromise the confidentiality, integrity, and availability of data.
+    Interference: Wireless communication in WSNs can be susceptible to interference from other wireless devices or radio signals, which can degrade the quality of data transmission.
+    Deployment challenges: Deploying WSNs can be challenging due to the need for proper sensor placement, power management, and network configuration, which can require significant time and resources.
+    while WSNs offer many benefits, they also have limitations and challenges that must be considered when deploying and using them in real-world applications.
+
+Conclusion
+
+In conclusion, Wireless Sensor Networks (WSNs) are valuable systems that enable efficient monitoring and data collection across various applications. They play a crucial role in industries like environmental monitoring, healthcare, and agriculture by providing real-time data insights. Despite challenges such as energy efficiency and security, WSNs continue to evolve with advancements in technology, promising even more effective and reliable performance in the future.
+Frequently Asked Questions on Wireless Sensor Network – FAQs
+Where are Wireless Sensor Networks used?
+
+
+    WSNs are used in various fields such as environmental monitoring (like weather and pollution), healthcare (for patient monitoring), agriculture (crop monitoring), and industrial automation.
+
+How do Wireless Sensor Networks work?
+
+
+    WSNs work by deploying sensor nodes in an area to collect data. These nodes communicate wirelessly with each other and with a central system or server, transmitting data for analysis and decision-making.
+
+Can Wireless Sensor Networks be used for outdoor applications?
+
+
+    Yes, WSNs are suitable for both indoor and outdoor applications, depending on the specific environmental conditions and requirements of the deployment.
+
+How secure are Wireless Sensor Networks?
+
+
+    Security measures such as encryption and authentication protocols are used to protect data transmitted within WSNs. However, ensuring robust security remains a continuous concern.
+
+
+Get ready to boost your rank and secure an exceptional GATE 2025 score with confidence!
+
+Our GATE CS & IT Test Series 2025 offers 60 PYQs Quizzes, 60 Subject-Wise Mock Tests, 4500+ PYQs and practice questions, and over 20 Full-Length Mock Tests that ensure you’re well-prepared to tackle the toughest questions and secure a top-rank in the GATE 2025 exam. Get personalized insights with student rankings based on performance and benefit from expert-designed tests created by industry pros and GATE CS toppers.
+
+Plus, don’t miss out on these exclusive features:
+
+--> All India Mock Test
+--> Live GATE CSE Mentorship Classes
+--> Live Doubt Solving Sessions 
+
+Join now and stay ahead in your GATE 2025 journey!
+
+Next Article
+How Wireless Mesh Networks Work?
+Similar Reads
+
+    Wireless Sensor Network (WSN)
+    Wireless Sensor Network (WSN), is an infrastructure-less wireless network that is deployed in a large number of wireless sensors in an ad-hoc manner that is used to monitor the system, physical, or environmental conditions. Sensor nodes are used in WSN with the onboard processor that manages and mon
+    8 min read
+    How Wireless Mesh Networks Work?
+    Answer: The Wireless Mesh Networks basically function by interconnecting multiple devices or nodes to create a robust and flexible network infrastructure.Below is the working of Wireless Mesh Networks Node formationThe nodes in wireless mesh networks basically communicate wirelessly, which forms a m
+    2 min read
+    Data Dissemination In Wireless Sensor Network
+    Data Dissemination is a procedure where the server initiates and manages transfer of data as well as updates. It also helps in maintaining data consistency and cache management. It is defined as "Pushing data to mobile devices from a server or some other computer." Mobile devices can select time and
+    6 min read
+    MAC Protocol Used in Wireless Sensor Networks
+    Pre-requisites: Classification of MAC Protocols In Wireless Sensor Networks (WSNs), the Medium Access Control (MAC) protocol is a set of guidelines that dictate how each node should transmit data over the shared wireless medium. The primary objective of the MAC protocol is to minimize the occurrence
+    6 min read
+    What is WRAN (Wireless Regional Area Network)?
+    WRAN which stands for Wireless Regional Area Network is designed and brought to existence, especially for rural areas, developing countries, places with low population density. IEEE 802.22 is the standard developed for Wireless Regional Area Network which uses white spaces of the Radio Frequency (RF
+    6 min read
+    Overview of Wireless Wide Area Network (WWAN)
+    WWAN : WWAN (Wireless Wide Area Network) is a WAN (Wide Area Network) and the only thing is that the connectivity is wireless. It provides regional, nationwide and global wireless coverage. Where Wide Area Network can be wired or wireless the Wireless Wide Area Network connections are completely wir
+    4 min read
+    Overview of Wireless Personal Area Network (WPAN)
+    WPAN : Wireless Personal Area Network in short known as WPAN. Actually WPAN is PAN (Personal Area Network) where the interconnected devices are centered around a person's workspace and connected through wireless medium. That's why it is also called as Person's centered short range wireless connectiv
+    2 min read
+    Wireless Body Area Network
+    In today's world, wireless communication has a major application in sharing of information anywhere and at anytime. We can use wireless networks in the form of WLAN or Wi-Fi in various fields such as education, healthcare, and industrial sector. As the technology is growing, the demands of users as
+    4 min read
+    Dynamic Spectrum Sharing in Wireless Network
+    Dynamic spectrum Sharing (DSS) is a new emerging technology that allows flexibility to mobile operators for switching between low, mid, and high-band frequencies. It allows both 4G and 5G to share the same spectrum. In this article we are going to learn about the definition of DSS, how it works, all
+    4 min read
+    Selective forwarding Attack in wireless Sensor Network
+    A selective forwarding attack is a type of security attack that can occur in wireless sensor networks (WSNs). In this attack, a malicious node in the network selectively forwards some data packets to the base station while dropping others, with the goal of compromising the integrity and availability
+    8 min read
+    Modes of Wireless Connectivity
+    The transition from wired networks to wireless networks is very much evident in the past 2-3 years. Advanced wireless networks are used to run Offices, Schools, Colleges, and many more places. Connections to these wireless networks are usually maintained by a Network Interface Card (NIC) or Network
+    4 min read
+    Wireless Security | Set 1
+    Wireless Network provides various comfort to end users but actually they are very complex in their working. There are many protocols and technologies working behind to provide a stable connection to users. Data packets traveling through wire provide a sense of security to users as data traveling thr
+    3 min read
+    Overview of Wireless Metropolitan Area Network (WMAN)
+    WMAN : Wireless Metropolitan Area Network (WMAN) is a type of Metropolitan Area Network (MAN) and the only thing is that the connectivity is wireless. It spans multiple locations within a geographic area and it serves the range greater than 100 meters. It is one type of wireless networking which has
+    3 min read
+    What is WCDMA in Wireless Networks?
+    Prerequisite: CDMA, Difference between WCDMA and GSM Wideband Code Division Multiple Access (WCDMA) is a type of cellular technology that was developed as a third-generation (3G) mobile communications standard. It is based on the Code Division Multiple Access (CDMA) technologies that were developed
+    3 min read
+    Wireless Communication | Set 1
+    Before talking about wireless medium, we need to talk about the wired medium. Wired network is a bounded medium where data travels over a path that a wire or cable takes. In modern era of advanced and enormous no of devices, wired medium of communication imposes a restriction on fluent communication
+    3 min read
+    Wireless Communication | Set 2
+    Prerequisite - Wireless Communication | Set 1 Basic Service Set : We know that wireless communication takes place over the Air. To regulate connection to devices, we need to make every wireless service area a closed group of mobile devices that form around a fixed device. Before mobile devices start
+    3 min read
+    Wireless Security | Part 2
+    Prerequisite – Wireless Security | Set 1 Four types of Extensible Authentication Protocol (EAP) authentication methods are - 1. LEAP 2. EAP-FAST 3. PEAP 4. EAP-TLS These are explained as following below. Lightweight Extensible Authentication Protocol (LEAP) - In order to eliminate the weakness of WE
+    2 min read
+    Wireless Communication | Set 3
+    Prerequisite - Wireless Communication | Set 2 Earlier, we talked about various Authentication methods. Now we talked about another aspect of wireless security, The Integrity. Integrity means the correctness of messages sent over the wireless network or the internet. Original 802.11 standard defined
+    2 min read
+    Differences between Wireless Adhoc Network and Wireless Sensor Network
+    1. Wireless Adhoc Network: A wireless ad-hoc network is a wireless network deployed without any framework or infrastructure. This incorporates wireless mesh networks, mobile ad-hoc networks, and vehicular ad-hoc networks. Its history could be traced back to the Defense Advanced Research Project Agen
+    3 min read
+    Generations of wireless communication
+    We have made very huge improvements in wireless communication and have expanded the capabilities of our wireless communication system. We all have seen various generations in our life. Let's discuss them one by one. 0th Generation: Pre-cell phone mobile telephony technology, such as radio telephones
+    2 min read
+
+three90RightbarBannerImg
+geeksforgeeks-footer-logo
+Corporate & Communications Address:- A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+GFG App on Play Store
+GFG App on App Store
+
+    Company
+    About Us
+    Legal
+    In Media
+    Contact Us
+    Advertise with us
+    GFG Corporate Solution
+    Placement Training Program
+    GeeksforGeeks Community
+
+    Languages
+    Python
+    Java
+    C++
+    PHP
+    GoLang
+    SQL
+    R Language
+    Android Tutorial
+    Tutorials Archive
+
+    DSA
+    Data Structures
+    Algorithms
+    DSA for Beginners
+    Basic DSA Problems
+    DSA Roadmap
+    Top 100 DSA Interview Problems
+    DSA Roadmap by Sandeep Jain
+    All Cheat Sheets
+
+    Data Science & ML
+    Data Science With Python
+    Data Science For Beginner
+    Machine Learning
+    ML Maths
+    Data Visualisation
+    Pandas
+    NumPy
+    NLP
+    Deep Learning
+
+    Web Technologies
+    HTML
+    CSS
+    JavaScript
+    TypeScript
+    ReactJS
+    NextJS
+    Bootstrap
+    Web Design
+
+    Python Tutorial
+    Python Programming Examples
+    Python Projects
+    Python Tkinter
+    Web Scraping
+    OpenCV Tutorial
+    Python Interview Question
+    Django
+
+    Computer Science
+    Operating Systems
+    Computer Network
+    Database Management System
+    Software Engineering
+    Digital Logic Design
+    Engineering Maths
+    Software Development
+    Software Testing
+
+    DevOps
+    Git
+    Linux
+    AWS
+    Docker
+    Kubernetes
+    Azure
+    GCP
+    DevOps Roadmap
+
+    System Design
+    High Level Design
+    Low Level Design
+    UML Diagrams
+    Interview Guide
+    Design Patterns
+    OOAD
+    System Design Bootcamp
+    Interview Questions
+
+    Inteview Preparation
+    Competitive Programming
+    Top DS or Algo for CP
+    Company-Wise Recruitment Process
+    Company-Wise Preparation
+    Aptitude Preparation
+    Puzzles
+
+    School Subjects
+    Mathematics
+    Physics
+    Chemistry
+    Biology
+    Social Science
+    English Grammar
+    Commerce
+    World GK
+
+    GeeksforGeeks Videos
+    DSA
+    Python
+    Java
+    C++
+    Web Development
+    Data Science
+    CS Subjects
+
+@GeeksforGeeks, Sanchhaya Education Private Limited, All rights reserved
+We use cookies to ensure you have the best browsing experience on our website. By using our site, you acknowledge that you have read and understood our Cookie Policy & Privacy Policy
+Lightbox
